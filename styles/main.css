@@ -15,6 +15,11 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6{
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #page-home {
     height: 100vh;
     background: url(../assets/icones/home-background.svg) no-repeat;
@@ -54,7 +59,6 @@ a {
 
 #page-home main h1 {
     font-size: 54px;
-    color: var(--title-color);
 }
 
 
