@@ -27,9 +27,46 @@
 
         <form action="">
             <h1> We want know about you!</h1>
-            
-        </form>
+            <fieldset>
+                <legend>
+                    <h2>Dados da Entidade<h2>
+                </legend>
+                <div class="field">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name">
+                </div>
 
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Address Code</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="field">
+                        <label for="address2">Number</label>
+                        <input type="number" name="address2">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="state">State</label>
+                        <select name="uf">
+                            <option value="">Select the state</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="city">City</label>
+                        <select name="city" disabled>
+                            <option value="">Select the city</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <button type="submit">Let´s GO!</button>
+
+        </form>
     </div>
 </body>
 

@@ -32,6 +32,26 @@ form {
     padding: 60px;
     border-radius: 10px;
     max-width: 730px;
-    box-sizing: border-box;
 }
 
+form h1 {
+    font-size: 36px;
+}
+
+form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2 {
+    font-size: 24px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+}
