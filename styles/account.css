@@ -1,0 +1,37 @@
+#page-account {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-account header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-account header a {
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#page-account header a span {
+    margin-right: 16px;
+    background-image: url(../assets/icones/arrow-left.svg);
+    display: flex;
+    width: 20px;
+    height: 24px;
+}
+
+form {
+    background-color: white;
+    margin: 80px auto;
+    padding: 60px;
+    border-radius: 10px;
+    max-width: 730px;
+    box-sizing: border-box;
+}
+
