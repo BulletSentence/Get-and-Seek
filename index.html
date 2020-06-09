@@ -11,6 +11,7 @@
     <!-- CSS imports -->  
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel="stylesheet" href="styles/resp.css">
 </head>
 
@@ -35,12 +36,24 @@
         </div>
     </div>
 
-    <div id="modal">
+    <div id="modal" class="hide">
         <div class="content">
             <div class="header">
                 <h1>Seek Points</h1>
                 <a href="#">Close</a>
             </div>
+            <form action="">
+                <label for="search">City</label>
+                <div class="search field">
+                    <input 
+                    type="text"
+                    name="search"
+                    placeholder="Search a City name">
+                    <button>
+                        <img src="/assets/icones/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 
