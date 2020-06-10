@@ -1,0 +1,23 @@
+{
+  "name": "get-and-geek",
+  "version": "1.0.0",
+  "description": "You can register an entity to be the collection point, and the type of garbage that will be collected there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BulletSentence/Get-and-Seek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BulletSentence/Get-and-Seek/issues"
+  },
+  "homepage": "https://github.com/BulletSentence/Get-and-Seek#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
