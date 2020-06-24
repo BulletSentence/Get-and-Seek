@@ -13,7 +13,7 @@ nunjucks.configure("src/views", {
 
 // HOME
 server.get("/", (req, res) => {
-    return res.render("index.html")
+    return res.render("index.html",  {title:"Your Place to Seek Things"})
 })
 
 server.get("/account", (req, res) => {
@@ -26,3 +26,5 @@ server.get("/search-results", (req, res) => {
 
 // Server turn on
 server.listen(3000)
+
+// 01:06:17
