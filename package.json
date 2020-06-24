@@ -4,7 +4,7 @@
   "description": "You can register an entity to be the collection point, and the type of garbage that will be collected there.",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
