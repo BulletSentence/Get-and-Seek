@@ -5,7 +5,7 @@ const server = express()
 
 // HOME
 server.get("/", (req, res) => {
-    req.send("Hi ppl")
+    res.sendfile(__dirname + "/views/index.html")
 })
 
 
