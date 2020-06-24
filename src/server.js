@@ -13,15 +13,15 @@ nunjucks.configure("src/views", {
 
 // HOME
 server.get("/", (req, res) => {
-    res.render("index.html")
+    return res.render("index.html")
 })
 
 server.get("/account", (req, res) => {
-    res.render("account.html")
+    return res.render("account.html")
 })
 
 server.get("/search-results", (req, res) => {
-    res.render("search-results.html")
+    return res.render("search-results.html")
 })
 
 // Server turn on
