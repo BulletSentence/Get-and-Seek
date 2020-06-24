@@ -4,6 +4,13 @@ const server = express()
 // paths
 server.use(express.static("public"))
 
+// modulos
+const nunjucks = require("nunjucks")
+nunjucks.configure("src/views", {
+    express: server,
+    noCache: true
+})
+
 // HOME
 server.get("/", (req, res) => {
     res.sendfile(__dirname + "/views/index.html")
